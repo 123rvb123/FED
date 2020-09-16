@@ -47,6 +47,8 @@ Javascript was lastig. Veel dingen geprobeerd uiteindelijk wel steeds dichter bi
 
 -screenshot(s) van hoe ver je bent-
 
+Werkend aan het menu:
+
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Screenshot_6.png)
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Screenshot_7.png)
 
