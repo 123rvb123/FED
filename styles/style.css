@@ -16,6 +16,14 @@ header img {
 
 }
 
+.sidebarmenu {
+	color:white;
+	background-color:purple;
+	width:60%;
+	position: relative;
+	z-index: 9999;
+}
+
 /* ################## nav ################## */ 
 
 nav {
@@ -45,7 +53,15 @@ nav img:first-of-type  {
 body {
 background-color:black;
 height:30em;
-justify-content: center;
+}
+
+section {
+	background-color:black;
+	color:white;
+}
+
+body section:nth-of-type(odd) {           /*oneven sections in de body kleur geven */
+	background-color:#121212;
 }
 
 /* ######################################### */ 
