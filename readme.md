@@ -41,6 +41,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
+Javascript was lastig. Veel dingen geprobeerd uiteindelijk wel steeds dichter bij uiteindelijke doel gekomen, het menu in en uitklappen.
 
 **Screenshot(s):**
 
@@ -49,6 +50,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
+Vragen stellen menu. Vragen stellen javascript. Vragen stellen semantische code. Vragen stellen optimale manier om te werken.
 
 ### Verslag van meeting
 
