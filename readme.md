@@ -54,6 +54,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -na afloop snel uitkomsten vastleggen-
 
+Meeting ging goed, kreeg goede feedback van Kris.
+ 
+Advies van Kris:
+
+• Begin met de CSS en niet met javascript (zodat je niet erg lang vastloopt)
+• Begin met het ''makkelijke'' eerst (in mijn geval html&css) dan heb je in ieder geval al iets staan
+• Probeer zoveel mogelijk werk te doen (waar je vast loopt later uitwerken)
+
+Punt voor nu
+• Probeer met Javascript niet het hele element weg te halen, maar met css het te verbergen d.m.v. toggle optie.
 
 
 ## Intake (week 1)
