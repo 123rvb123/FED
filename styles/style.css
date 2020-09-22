@@ -1,49 +1,99 @@
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
+  margin:0;
+  padding:0;
 }
 
 .wrapper {
+	position: relative;
 }
 
 header {
 
 }
 
-header img {
+.headerimg {
 	width:100%;
 	height:auto;
 
 }
 
+/* ################## sidebar hamburgermenu ################## */ 
+
 .sidebarmenu {
 	color:white;
-	background-color:purple;
-	width:60%;
+	background-color:#0F0F0F;
 	position: relative;
-	z-index: 9999;
+	position:absolute;
+	left:0px;
+	font-size:1.25rem;
+	padding:.4em;
+
 }
+
+
+.sidebarmenu ul, li {
+		list-style-type: none;
+		margin:5px;
+		padding:13px;
+		width:10em;
+}
+
+.sidebarmenu ul li img:nth-of-type(even){
+			float:right;
+			width:5%;
+			margin-top:.5em;
+			margin-right:.3em;
+}
+
+header nav div .hamburgerinside {	/* hamburger menu in side bar icon */
+	margin-left:90%;
+	padding-top: .6em;
+
+
+}
+
+/* ########################################################### */ 
+
+
 
 /* ################## nav ################## */ 
 
 nav {
-background-color:black;
-height:3em;
+	background-color:#121212;
+	height:3em;
+	display:flex;
+	justify-content: space-around;
 }
 
-nav img:first-of-type  { 
+nav img {
+	align-self:center;
+}
+
+nav img:first-of-type  { 		/* hamburger menu */
 	width:6%;
 	height:auto;
-	background-color:white;
-	margin-left:1em;
+
  }
 
- nav img:nth-of-type(2)  { 
+ nav img:nth-of-type(2)  { 		/* imdb menu */
 	width:13%;
 	height:auto;
-	margin-left:2em;
-	margin-top:.5em;
  }
+
+ nav img:nth-of-type(3)  { 		/* imdb menu */
+	width:7%;
+	height:auto;
+	text-align:right;
+ }
+
+
+   nav img:nth-of-type(4)  { 		/* imdb menu */
+	width:7%;
+	height:auto;
+ }
+
 
 /* ######################################### */ 
 
@@ -55,18 +105,31 @@ background-color:black;
 height:30em;
 }
 
+body section h1, h2 {
+	color:#E2B616;
+}
+
 section {
 	background-color:black;
 	color:white;
+	padding:.6em;
 }
 
-body section:nth-of-type(odd) {           /*oneven sections in de body kleur geven */
+body section:nth-of-type(even) {           /*even sections in de body kleur geven */
 	background-color:#121212;
 }
+
+body section:nth-of-type(3) button {
+	width:80%;
+	height:3.5em;
+	background-color: #E2B616;
+	border-radius:.7em;
+}
+
 
 /* ######################################### */ 
 
 footer {
-background-color:grey;
+background-color:lightblue;
 height:10em;
 }
