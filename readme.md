@@ -153,7 +153,7 @@ www.imdb.com
 
 Screenshots van de desktop versie van IMDB:
 
-(images/voortgang/Screenshot1.png)
+!(images/voortgang/Screenshot1.png)
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/voortgang/Screenshot2.png)
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/voortgang/Screenshot3.png)
 
