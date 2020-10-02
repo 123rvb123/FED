@@ -105,7 +105,7 @@ background-color:black;
 height:30em;
 }
 
-.yellowtitle {
+body section h1, h2 {
 	color:#e7af1f;
 }
 
@@ -144,24 +144,15 @@ body section:nth-of-type(2) p {
 		overflow-x: auto; 
 	}
 
-	.slider2 button {			/* watchlist button */
+	.slider2 button {
 		border-radius:.3em;
 		color:#639FED;
 		font-size:1em;
 		font-family:bold;
 		padding:.5em;
 		margin:auto;
-		background-color:#242227;
+		background-color:#2c2c2c;
 		border: none;
-	}
-
-	.slide2 p {
-		text-overflow: ellipsis;
-		padding:.5em;
-	}
-
-	.slide2 h2 {
-		color:white;
 	}
 
 	.slider #slide-1, #slide-2, #slide-3, #slide-4, #slide-5, #slide-6, #slide-7, #slide-8 {
@@ -172,11 +163,7 @@ body section:nth-of-type(2) p {
 	.slide2 #slide-1 {
 		background-color:#242227;
 	}
-
-	.slide2 {
-		padding:.3em;
-	}
-
+	
 /* ########### */
 
 /* 3E ARTICLE */
@@ -192,15 +179,11 @@ body section:nth-of-type(3) button {
 body section:nth-of-type(3) {
 	padding-top:2em;
 	padding-left:1.3em;
-	padding-bottom:1.7em;
 }
 
 body section:nth-of-type(3) h1, h2 {
+	color:#e7af1f;
 	padding-bottom:0.4em;
-}
-
-body section:nth-of-type(3) h1 {
-	font-size:1.7em;
 }
 
 /* ########### */
@@ -241,31 +224,3 @@ footer {
 background-color:lightblue;
 height:10em;
 }
-
-/* 5E ARTICLE */
-
-body section:nth-of-type(5) h2::first-letter {  /* GEEL STREEPJE BIJ TITEL */
-	color:#b29922;
-}
-
-/* ######################################### */ 
-
-/* 6E ARTICLE */
-
-body section:nth-of-type(6) h2::first-letter {  /* GEEL STREEPJE BIJ TITEL */
-	color:#b29922;
-}
-
-/* ######################################### */ 
-
-/* 7E ARTICLE */
-
-body section:nth-of-type(7) h2::first-letter {  /* GEEL STREEPJE BIJ TITEL */
-	color:#b29922;
-}
-
-/* ######################################### */ 
-
-/* 8E ARTICLE */
-
-/* ######################################### */ 
