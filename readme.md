@@ -24,18 +24,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
-
-
-
-## Voortgang 2 (week 5)
-
--same as voortgang 1-
-
-
-
-## Voortgang 1 (week 3)
-
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
@@ -54,18 +42,114 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 
-## Intake (week 1)
+## Voortgang 2 (week 5)
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+### Stand van zaken
 
-**Je focus:** -kies uit responsive óf surface plane-
+De homepagina van IMDB is erg lang en er zit veel informatie en afbeeldingen in. 
+Wat steeds terugkomt zijn de sliders. Boven de afbeeldingen van de sliders staan er op
+de IMDb website ook nog buttons om het aan "jouw lijst" toe te voegen.
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+Misschien is het een leuk idee om met de surface plane een button aan te maken in het menu
+waarin ik films en series kan toevoegen en hierdoor het nummertje bij het icoontje omhoog gaat
+zoals bijvoorbeeld in een winkelmandje bij bol.com. Dit is wel een leuk idee om te leren en naar 
+toe te streven.
+
+-dit ging goed & dit was lastig-
+
+Wat goed ging:
+• Heb het idee dat het HTML & CSS lukt en de site er goed uit ziet
+• Begint steeds meer op de originele site te lijken
+• Nieuwe dingen uitgevonden zoals de css slider
+• Hier en daar nieuwe efficiente CSS geleerd zoals de nth-of-type(even) 
+
+Wat lastig was:
+• Het HTML en CSS geordend houden
+• Niet het overzicht verliezen van de codes en het gestructureerd houden
+• De slider perfect maken zoals die op IMDB staat en responsive
+• Waarschijnlijk gaat komende weken het responsive maken lastig worden
+
+**Screenshot(s):**
+Dit zijn screenshots van hoe ver ik 02-10-2020 ben met de IMDb website. 
+
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/voortgang/Screenshot8.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/voortgang/Screenshot9.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/voortgang/Screenshot10.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/voortgang/Screenshot11.png)
+
+
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+### Verslag van meeting
+
+-na afloop snel uitkomsten vastleggen-
+
+
+
+## Voortgang 1 (week 3)
+
+### Stand van zaken
+
+-dit ging goed & dit was lastig-
+
+Basis opgezet van de site. Erg veel bezig geweest met het menu en zitten stoeien met het javascript. Veel verschillende opties geprobeerd.
+Uiteindelijk met een remove optie de menu class proberen weg te halen, en dan weer op te roepen als er op de hamburger geklikt wordt.
+Ik heb hier feedback om gevraagt.
+
+Bespreking met Kris tips:
+•	Gebruik een toggle optie voor het menu inplaats van een remove en add optie.
+•	Blijf niet te lang vast zitten bij het javascript gedeelte en ga door.
+•	Probeer eerst het gene te doen waar je goed in bent, zodat dat alvast gedaan is.
+•	Begin alvast met de styling van de website, ga daarna verder met de moeilijkere dingen
+waar je minder bekend mee bent,
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+Dit is hoe ver ik momenteel ben gekomen met het menu. Het heeft een toggle functie alleen komt het nu onder het menu
+inplaats van daarboven. Ik moet even kijken hoe ik dit kan oplossen. Ben in ieder geval blij dat het gelukt is met de toggle functie.
+
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/voortgang/Screenshot6.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/voortgang/Screenshot7.png)
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+### Verslag van meeting
+
+-na afloop snel uitkomsten vastleggen-
+
+
+
+## Intake (week 1)
+
+**Je startniveau:** -kies uit zwart, rood óf blauw-
+Mijn start niveau is de rode piste. 
+
+**Je focus:** -kies uit responsive óf surface plane-
+Mijn focus gaat uit naar responsive. Ik ben wel van plan om zeker ook aan de surface plan te gaan werken als hier
+genoeg tijd voor is. Ik vind beide namelijk erg interessant en denk dat ik de toekomst aan beide veel heb.
+
+**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+www.imdb.com
+
+**Screenshot(s):**
+
+Screenshots van de desktop versie van IMDB:
+
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/voortgang/Screenshot1.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/voortgang/Screenshot2.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/voortgang/Screenshot3.png)
+
+Screenshots van de mobiele versie van IMDB:
+
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/voortgang/Screenshot4.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/voortgang/Screenshot5.png)
+
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+
