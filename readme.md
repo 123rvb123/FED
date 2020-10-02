@@ -81,12 +81,21 @@ Dit zijn screenshots van hoe ver ik 02-10-2020 ben met de IMDb website.
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+Met het groepje bespreken wie wat gaat vragen en in welke volgorde.
+
+Op dit moment niet veel vragen, doordat het meeste van de pagina gedaan is
+moet alleen alles veel netter maken en wellicht html en css overzichtelijker maken.
+Het gaat nu meer om de styling op dit moment wat tot nu toe goed gaat.
+
+Volgende week verwacht ik meer moeite te krijgen d.m.v. het responsive maken van de website.
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
-
+• Goed om te zien hoe ver iedereen is
+• Inspiratie uit de gesprekken hoe klasgenoten problemen oplossen
+• Wellicht kijken hoe ik een slider met een grid kan maken
+• Vraag klasgenoten om hulp die jouw probleem al hebben opgelost als het niet lukt
+• Kris berichten sturen via teams als ik ergens niet uit kom of feedback wil.
 
 
 ## Voortgang 1 (week 3)
@@ -99,12 +108,6 @@ Basis opgezet van de site. Erg veel bezig geweest met het menu en zitten stoeien
 Uiteindelijk met een remove optie de menu class proberen weg te halen, en dan weer op te roepen als er op de hamburger geklikt wordt.
 Ik heb hier feedback om gevraagt.
 
-Bespreking met Kris tips:
-•	Gebruik een toggle optie voor het menu inplaats van een remove en add optie.
-•	Blijf niet te lang vast zitten bij het javascript gedeelte en ga door.
-•	Probeer eerst het gene te doen waar je goed in bent, zodat dat alvast gedaan is.
-•	Begin alvast met de styling van de website, ga daarna verder met de moeilijkere dingen
-waar je minder bekend mee bent,
 
 **Screenshot(s):**
 
@@ -118,9 +121,19 @@ inplaats van daarboven. Ik moet even kijken hoe ik dit kan oplossen. Ben in iede
 
 -samen met je groepje opstellen-
 
+Vragen stellen over menu en vragen over wat efficient is qua html en css. 
+Vragen over de eindopdracht in hoeverre dingen moeten.
+
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
+
+Bespreking met Kris tips:
+•	Gebruik een toggle optie voor het menu inplaats van een remove en add optie.
+•	Blijf niet te lang vast zitten bij het javascript gedeelte en ga door.
+•	Probeer eerst het gene te doen waar je goed in bent, zodat dat alvast gedaan is.
+•	Begin alvast met de styling van de website, ga daarna verder met de moeilijkere dingen
+waar je minder bekend mee bent.
 
 
 
