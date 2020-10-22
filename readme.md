@@ -57,13 +57,13 @@ toe te streven.
 
 -dit ging goed & dit was lastig-
 
-Wat goed ging:
-• Heb het idee dat het HTML & CSS lukt en de site er goed uit ziet
-• Begint steeds meer op de originele site te lijken
-• Nieuwe dingen uitgevonden zoals de css slider
-• Hier en daar nieuwe efficiente CSS geleerd zoals de nth-of-type(even) 
+Wat goed ging: <BR>
+• Heb het idee dat het HTML & CSS lukt en de site er goed uit ziet <BR>
+• Begint steeds meer op de originele site te lijken <BR>
+• Nieuwe dingen uitgevonden zoals de css slider <BR>
+• Hier en daar nieuwe efficiente CSS geleerd zoals de nth-of-type(even)  <BR>
 
-Wat lastig was:
+Wat lastig was: <BR>
 • Het HTML en CSS geordend houden <BR>
 • Niet het overzicht verliezen van de codes en het gestructureerd houden <BR>
 • De slider perfect maken zoals die op IMDB staat en responsive <BR>
@@ -90,12 +90,12 @@ Het gaat nu meer om de styling op dit moment wat tot nu toe goed gaat.
 Volgende week verwacht ik meer moeite te krijgen d.m.v. het responsive maken van de website.
 
 ### Verslag van meeting
-
-• Goed om te zien hoe ver iedereen is
-• Inspiratie uit de gesprekken hoe klasgenoten problemen oplossen
-• Wellicht kijken hoe ik een slider met een grid kan maken
-• Vraag klasgenoten om hulp die jouw probleem al hebben opgelost als het niet lukt
-• Kris berichten sturen via teams als ik ergens niet uit kom of feedback wil.
+ <BR>
+• Goed om te zien hoe ver iedereen is <BR>
+• Inspiratie uit de gesprekken hoe klasgenoten problemen oplossen <BR>
+• Wellicht kijken hoe ik een slider met een grid kan maken <BR>
+• Vraag klasgenoten om hulp die jouw probleem al hebben opgelost als het niet lukt <BR>
+• Kris berichten sturen via teams als ik ergens niet uit kom of feedback wil. <BR>
 
 
 ## Voortgang 1 (week 3)
@@ -128,10 +128,10 @@ Vragen over de eindopdracht in hoeverre dingen moeten.
 
 -na afloop snel uitkomsten vastleggen-
 
-Bespreking met Kris tips:
-•	Gebruik een toggle optie voor het menu inplaats van een remove en add optie.
-•	Blijf niet te lang vast zitten bij het javascript gedeelte en ga door.
-•	Probeer eerst het gene te doen waar je goed in bent, zodat dat alvast gedaan is.
+Bespreking met Kris tips: <BR>
+•	Gebruik een toggle optie voor het menu inplaats van een remove en add optie. <BR>
+•	Blijf niet te lang vast zitten bij het javascript gedeelte en ga door. <BR>
+•	Probeer eerst het gene te doen waar je goed in bent, zodat dat alvast gedaan is. <BR>
 •	Begin alvast met de styling van de website, ga daarna verder met de moeilijkere dingen
 waar je minder bekend mee bent.
 
