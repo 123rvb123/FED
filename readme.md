@@ -6,9 +6,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. IMDb.com voor alle informatie, films, icons etc. <br>
+2. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp voor hulp met de javascript<br>
+3. https://pngtree.com/so/search icons<br>
 
 
 
