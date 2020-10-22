@@ -1,7 +1,7 @@
 // JavaScript Document
 
-var hamburgerMenu = document.querySelector("nav .hamburger");
-var sidebar = document.querySelector("div .sidebarmenu");
+var hamburgerMenu = document.querySelector("nav div .hamburger");
+var sidebar = document.querySelector("article .sidebarmenu");
 var hamburgerMenuSideBar = document.querySelector("nav .hamburgerinside");
 
 hamburgerMenu.addEventListener("click", toggleMenu);
@@ -16,6 +16,9 @@ hamburgerMenuSideBar.addEventListener("click", toggleMenu);
 // 	var sidebar = document.querySelector("div .sidebarmenu");
 // 	sidebar.remove();
 // }
+
+
+// bron: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 
 function toggleMenu() {
  if (sidebar.style.display === "none") {

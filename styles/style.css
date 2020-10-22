@@ -13,6 +13,7 @@ header {
 
 }
 
+
 .headerimg {
 	width:100%;
 	height:auto;
@@ -24,7 +25,6 @@ header {
 .sidebarmenu {
 	color:white;
 	background-color:#0F0F0F;
-	position: relative;
 	position:absolute;
 	left:0px;
 	font-size:1.25rem;
@@ -47,11 +47,10 @@ header {
 			margin-right:.3em;
 }
 
-header nav div .hamburgerinside {	/* hamburger menu in side bar icon */
+ .hamburgerinside {	/* hamburger menu in side bar icon */
 	margin-left:90%;
 	padding-top: .6em;
-
-
+	cursor:pointer;
 }
 
 /* ########################################################### */ 
@@ -59,40 +58,58 @@ header nav div .hamburgerinside {	/* hamburger menu in side bar icon */
 
 
 /* ################## nav ################## */ 
-
 nav {
 	background-color:#121212;
-	height:3em;
-	display:flex;
-	justify-content: space-around;
 }
 
-nav img {
+
+nav div{
+	background-color:#121212;
+	display:flex;
+	justify-content: space-between;
+}
+
+.searchbar {
+	background-color:#242525;
+	border:1em;
+	padding-left:1em;
+	font-family:bold;
+	font-size:1em;
+	width:20em;
+}
+
+nav div img {
 	align-self:center;
 }
 
-nav img:first-of-type  { 		/* hamburger menu */
+nav div img:first-of-type  { 		/* hamburger menu */
 	width:6%;
 	height:auto;
-
+	cursor:pointer;
+	max-width:1.2em;
  }
 
- nav img:nth-of-type(2)  { 		/* imdb menu */
+ nav div img:nth-of-type(2)  { 		/* imdb menu */
 	width:13%;
 	height:auto;
+	max-width:3em;
  }
 
- nav img:nth-of-type(3)  { 		/* imdb menu */
+ nav div img:nth-of-type(3)  { 		/* search icon menu */
 	width:7%;
 	height:auto;
 	text-align:right;
+	max-width:1.2em;
  }
 
-
-   nav img:nth-of-type(4)  { 		/* imdb menu */
-	width:7%;
-	height:auto;
+ nav div p {						/* sign in menu */
+ 	color:white;
  }
+
+.menu {
+		padding:1em;
+}
+
 
 
 /* ######################################### */ 
@@ -122,7 +139,7 @@ body section:nth-of-type(2) {
 
 }
 
-body section:nth-of-type(2) img {	/* EERSTE IMAGE */
+body section:nth-of-type(2) img {	/* EERSTE IMAGE (FULLWIDTH) */
 	padding-top:1em;
 	height:auto;
 	width:95%;
@@ -179,9 +196,10 @@ body section:nth-of-type(2) p {
 
 /* ########### */
 
-/* 3E ARTICLE */
 
-body section:nth-of-type(3) button {
+/* 3E ARTICLE */						/*************** WHAT TO WATCH ***************/
+
+body section:nth-of-type(3) button {  
 	width:100%;
 	height:3.5em;
 	background-color: #b29922;
@@ -205,7 +223,7 @@ body section:nth-of-type(3) h1 {
 
 /* ########### */
 
-/* 4E ARTICLE */
+/* 4E ARTICLE */					/*************** TOP PICKS ***************/
 
 body section:nth-of-type(4) {
 
@@ -237,35 +255,249 @@ body section:nth-of-type(even) {           /*even sections in de body kleur geve
 
 /* ######################################### */ 
 
-footer {
-background-color:lightblue;
-height:10em;
-}
 
-/* 5E ARTICLE */
+/* 5E ARTICLE */					/*************** FROM YOUR WATCHLIST ***************/
 
-body section:nth-of-type(5) h2::first-letter {  /* GEEL STREEPJE BIJ TITEL */
+body section:nth-of-type(5) h2::first-letter { 
 	color:#b29922;
 }
 
 /* ######################################### */ 
 
-/* 6E ARTICLE */
+/* 6E ARTICLE */				/*************** FAN FAVORITES ***************/
 
-body section:nth-of-type(6) h2::first-letter {  /* GEEL STREEPJE BIJ TITEL */
+body section:nth-of-type(6) h2::first-letter {  
 	color:#b29922;
 }
 
 /* ######################################### */ 
 
-/* 7E ARTICLE */
+/* 7E ARTICLE */				/*************** MORE TO WATCH ***************/
 
-body section:nth-of-type(7) h2::first-letter {  /* GEEL STREEPJE BIJ TITEL */
+body section:nth-of-type(7) h2::first-letter {  
+	color:#b29922;
+}
+
+body section:nth-of-type(7) p {  
+	padding-bottom:.8em;
+}
+
+body section:nth-of-type(7) button {  
+			border-radius:.3em;
+		background-color:black;
+		color:white;
+		font-size:1em;
+		font-family:bold;
+		padding:.5em;
+		margin:auto;
+		width:13em;
+		border-color:white;
+}
+
+/* ######################################### */ 
+
+/* 8E ARTICLE */				/*************** EXLUSIVE VIDEO'S ***************/
+
+
+
+/* ######################################### */ 
+
+/* 9E ARTICLE */				/*************** IMDB ORIGINALS ***************/
+body section:nth-of-type(9) img {
+	padding-top:1em;
+	height:auto;
+	width:95%;
+}
+/* ######################################### */ 
+
+/* 14E ARTICLE */				/*************** COMING SOON TO THEATERS ***************/
+
+body section:nth-of-type(14) img {	
+	padding-top:1em;
+	height:auto;
+	width:95%;
+}
+
+/* ######################################### */ 
+
+/* 16E ARTICLE */				/*************** EDITORS' PICKS ***************/
+
+body section:nth-of-type(16) img {	
+	padding-top:1em;
+	height:auto;
+	width:95%;
+}
+
+/* ######################################### */ 
+
+/* 17E ARTICLE */				/*************** BORN TODAY ***************/
+
+body section:nth-of-type(17) img {	/* EERSTE IMAGE */
+	padding:.5em;
+}
+
+.slider17 {
+	display:flex;
+	overflow-x:auto;
+}
+
+body section:nth-of-type(17) h2::first-letter {  /* GEEL STREEPJE BIJ TITEL */
 	color:#b29922;
 }
 
 /* ######################################### */ 
 
-/* 8E ARTICLE */
+/* 18E ARTICLE */			/*************** TOP NEWS ***************/
+
+body section:nth-of-type(18) h2::first-letter { 
+	color:#b29922;
+}
+
+body section:nth-of-type(18) button {
+	color:white;
+	background-color:#121212;
+	border-radius:25px;
+	border-color:#aaaaaa;
+	height:3em;
+	margin-top:2em;
+	padding:.85em 2em 2em 2em;
+	font-size:.65em;
+
+}
+
+body section:nth-of-type(18) p {
+	padding-left:2em;
+}
 
 /* ######################################### */ 
+
+
+.topnewsslider {
+	display:flex;
+	overflow-x: auto;
+}
+
+.imdbapp {
+		text-align:center;
+}
+
+.imdbappbutton {
+			border-radius:.3em;
+		background-color:#b29922;
+		color:white;
+		font-size:1em;
+		font-family:bold;
+		padding:.5em;
+		margin:auto;
+		border: none;
+		width:13em;
+}
+
+footer div {
+	display:flex;
+	justify-content: space-around;
+	padding:1.5em;
+	padding-left:3em;
+}
+
+footer p {
+	color:white;
+	text-align:center;
+	padding-top:1em;
+	padding-bottom:2em;
+	color:grey;
+}
+
+footer img {
+	width:20%;
+	height:auto;
+}
+
+ @media only screen and (min-width: 1100px) { 			/******************* REPONSIVE GEDEELTE CSS *******************/
+
+ 	.headerimg {
+ 		width:65%;
+ 	}
+
+ 	.headerimgandtekst {
+ 		display:flex;
+ 	}
+
+ 	.headertekst {					/* P naast header afbeelding */
+ 		display:flex;
+ 		color:#e7af1f;
+ 		padding-bottom:.5em;
+ 	}
+
+ 	.rechtsheader {					/* Article naast header afbeelding */
+ 		overflow: hidden;
+ 		width:100%;
+ 	}
+
+ 	.rechtsheader article {
+ 		width:100%;
+ 		display: flex;
+ 	}
+
+
+ 	.headerimg1 {					/* Afbeelding naast grote header afbeelding*/
+ 		width:20%;
+ 		height: auto;
+
+ 	}
+
+ 	.headerimg1tekst {				/* Tekst naast grote header afbeelding*/
+ 		color:white;
+ 		padding:.5em;
+ 		font-size:.8em;
+ 	}
+
+ 	 	.headerimg1tekst1 {				/* Tekst naast grote header afbeelding*/
+		display: inherit;
+ 	}
+
+ 	.menu img:first-of-type {			/* hamburger menu */
+ 		max-width:1.2em;
+ 	}
+
+ 	.menu img:nth-of-type(2)  { 		/* imdb menu */
+	height:auto;
+	width:3em;
+ 	}
+
+ 	 .menu img:nth-of-type(3){			/* search menu */
+ 		max-width:1.2em;
+ 	}
+
+ 	body section:nth-of-type(1) {
+
+}
+
+
+	body section:nth-of-type(3) {		/* button rechts van "What to watch" */
+  	display: flex;
+	justify-content: space-evenly;
+ 	}
+
+ 	body section:nth-of-type(3) button {
+  	max-width:25em;
+ 	}
+
+ 	body {
+ 		width:80%;
+ 		margin:0px auto;
+ 	}
+
+ }
+
+  @media only screen and (max-width: 1100px) {
+
+  	.rechtsheader {
+  		display:none;
+  	}
+
+  	.searchbar {
+  		display:none;
+  	}
+
+  }
