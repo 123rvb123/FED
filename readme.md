@@ -64,10 +64,10 @@ Wat goed ging:
 • Hier en daar nieuwe efficiente CSS geleerd zoals de nth-of-type(even) 
 
 Wat lastig was:
-• Het HTML en CSS geordend houden
-• Niet het overzicht verliezen van de codes en het gestructureerd houden
-• De slider perfect maken zoals die op IMDB staat en responsive
-• Waarschijnlijk gaat komende weken het responsive maken lastig worden
+• Het HTML en CSS geordend houden <BR>
+• Niet het overzicht verliezen van de codes en het gestructureerd houden <BR>
+• De slider perfect maken zoals die op IMDB staat en responsive <BR>
+• Waarschijnlijk gaat komende weken het responsive maken lastig worden <BR>
 
 **Screenshot(s):**
 Dit zijn screenshots van hoe ver ik 02-10-2020 ben met de IMDb website. 
