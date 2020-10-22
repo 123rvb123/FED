@@ -26,11 +26,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-dit ging goed & dit was lastig-<br><br>
+
+Na het bijna afronden van het stylen van de homepagina van IMDb, wat erg veel werk was kwam het volgende.<br>
+Het responsive maken van de website. Dit was erg veel proberen en verbeteren. Erachter komen hoe dingen werken <br>
+en waar ze moeten staan. Ik was redelijk lang bezig om de menu icons een max grootte te geven, en een <br>
+aside te maken naast de grote header image met daarin kleine afbeeldingen en uitleg over andere films.<br>
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/voortgang/Screenshot12.png)
 
 ### Agenda voor meeting
 
