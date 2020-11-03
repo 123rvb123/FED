@@ -1,96 +1,101 @@
 <!doctype html>
-<html lang="nl">
-	
+<html lang="en">
 
-<article class="wrapper">
-
-<header>
+<head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="remco" content="imdb">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<title>IMDB</title>
 	
 	<link href="styles/style.css" rel="stylesheet">
+</head>
 
-	<nav>
 
-		<article class="sidebarmenu" style="display:none;"> 
-
-	<!-- 	style="display: none;" -->
-		<img src="images/x.png" class="hamburgerinside">
-
-		<ul>
-			<li> <img src="images/star.png"> Movies 			<img src="images/chevrondown.png"></li>
-			<li> <img src="images/star.png"> TV Shows 			<img src="images/chevrondown.png"></li>
-			<li> <img src="images/star.png"> Watch 				<img src="images/chevrondown.png"></li>
-			<li> <img src="images/star.png"> Awards & Events 	<img src="images/chevrondown.png"></li>
-			<li> <img src="images/star.png"> Celebs 			<img src="images/chevrondown.png"></li>
-			<li> <img src="images/star.png"> Community 			<img src="images/chevrondown.png"></li>
-		</ul>
-
-			</article>
-
-	<div class="menu">
-		<img src="images/hamburger.png" class="hamburger">
-		<img src="images/imdb.png">
-		 <input type="text" placeholder="Search IMDb.." class="searchbar">
-		<img src="images/search.png">
-		<p>Sign In</p>
-	</div>
-
-	</nav>
-
-	<div class="headerimgandtekst">
-		<img src="images/blackwidow1.jpg" class="headerimg">
-		
-	<section class="rechtsheader">
-		<p class="headertekst">Up next</p>
-			<article>
-				<img class="headerimg1" src="images/headerimg1.jpg"> 
-				<p class="headerimg1tekst">3:37</p>
-				<p class="headerimg1tekst">From 'Cinderella' to 'Rebecca'</p>
-			</article>
-
-						<article>
-				<img class="headerimg1" src="images/headerimg2.jpg"> 
-				<p class="headerimg1tekst">2:15</p>
-				<p class="headerimg1tekst">Hunter bitten by a vampire</p>
-			</article>
-
-						<article>
-				<img class="headerimg1" src="images/headerimg3.jpg"> 
-				<p class="headerimg1tekst">1:57</p>
-				<p class="headerimg1tekst">Revenge for act of violence</p>
-			</article>
-	</section>
-
-	<div>
-</header>
 
 <body>
 
+	<header>
+
+		<nav>
+
+			<article class="sidebarmenu" style="display: none;"> 
+
+		<!-- 	style="display: none;" -->
+			<img alt="picture" src="images/x.png" class="hamburgerinside">
+
+			<ul>
+				<li> <img alt="Star icon" src="images/star.png"> Movies 			<button><img alt="Chevron Icon" src="images/chevrondown.png"></button></li>
+				<li> <img alt="Star icon" src="images/star.png"> TV Shows 			<button><img alt="Chevron Icon" src="images/chevrondown.png"></button></li>
+				<li> <img alt="Star icon" src="images/star.png"> Watch 				<button><img alt="Chevron Icon" src="images/chevrondown.png"></button></li>
+				<li> <img alt="Star icon" src="images/star.png"> Awards & Events 	<button><img alt="Chevron Icon" src="images/chevrondown.png"></button></li>
+				<li> <img alt="Star icon" src="images/star.png"> Celebs 			<button><img alt="Chevron Icon" src="images/chevrondown.png"></button></li>
+				<li> <img alt="Star icon" src="images/star.png"> Community 			<button><img alt="Chevron Icon" src="images/chevrondown.png"></button></li>
+			</ul>
+
+				</article>
+
+		<div class="menu">
+			<button class="hamburgerbutton"><img alt="hamburger icon" src="images/hamburger.png" class="hamburger"></button>
+			<button><img alt="logo imdb" src="images/imdb.png" class="logo"></button>
+			<input type="text" placeholder="Search IMDb.." class="searchbar">
+			<button><img alt="search button" src="images/search.png" class="searchbutton"></button>
+			<p><button>Sign In</button></p>
+		</div>
+
+		<h1 class="fullscreenimagetekst"> Black Widow |  <a href="https://netflix.com" class="wheretowatch">Netlix</a> | 
+			<a href="https://primevideo.com" class="wheretowatch">Prime Video</a></h1>
+
+		</nav>
+
+		<div class="headerimgandtekst">
+			<img alt="blackwidowimage" src="images/blackwidow1.jpg" class="headerimg">
+			
+		<section class="rechtsheader">
+			<p class="headertekst">Up next</p>
+				<article>
+					<img alt="No small parts" class="headerimg1" src="images/headerimg1.jpg"> 
+					<p class="headerimg1tekst">3:37</p>
+					<p class="headerimg1tekst">From 'Cinderella' to 'Rebecca'</p>
+				</article>
+
+				<article>
+					<img alt="The Shed" class="headerimg1" src="images/headerimg2.jpg"> 
+					<p class="headerimg1tekst">2:15</p>
+					<p class="headerimg1tekst">Hunter bitten by a vampire</p>
+				</article>
+
+				<article>
+					<img alt="Revenge" class="headerimg1" src="images/headerimg3.jpg"> 
+					<p class="headerimg1tekst">1:57</p>
+					<p class="headerimg1tekst">Revenge for act of violence</p>
+				</article>
+		</section>
+
+		</div>
+	</header>
+
 	<section> 
-	<h4>Browse Trailers > </h4>
+	<h3><button>Browse Trailers ></button></h3>
 	</section>
 
 
 	<section>
-	<h1 class="yellowtitle">Featured today</h1>
+	<h2 class="yellowtitle">Featured today</h2>
 
 	<article class="slider">
-		  <article class="slide" id="slide-1"><img src="images/1erow.png">	<p>What TV Shows Are Renewed or Canceled?</p>				</article>
-		  <article class="slide" id="slide-2"><img src="images/1erow2.png">	<p>The Best Movies and Shows to Stream on Prime Video</p>	</article>
-		  <article class="slide" id="slide-3"><img src="images/1erow3.png">	<p>LGBTQ+ Power Couples of Hollywood</p>					</article>
-		  <article class="slide" id="slide-4"><img src="images/1erow4.png">	<p>LGBTQ+ Power Couples of Hollywood</p>					</article>
+		  <article class="slide"><a href="index2.html"><img alt="3 movie pictures" src="images/1erow.png"></a>	<h3>What TV Shows Are Renewed or Cancelled?</h3>				</article>
+		  <article class="slide"><a href="index2.html"><img alt="3 movie pictures" src="images/1erow2.png"></a>	<h3>The Best Movies and Shows to Stream on Prime Video</h3>	</article>
+		  <article class="slide"><a href="index2.html"><img alt="3 movie pictures" src="images/1erow3.png"></a>	<h3>LGBTQ+ Power Couples of Hollywood</h3>					</article>
+		  <article class="slide"><a href="index2.html"><img alt="3 movie pictures" src="images/1erow4.png"></a>	<h3>LGBTQ+ Power Couples of Hollywood</h3>					</article>
 	</article>
 
 	</section>
 
 
 	<section> 
-		<h1 class="yellowtitle">What to watch</h1>
-		<button><h3>Browse our What to Watch trailer ></h3></button>
+		<h2 class="yellowtitle">What to watch</h2>
+		<h3><button>Browse our What to Watch trailer ></button></h3>
 	</section>
 
 
@@ -98,26 +103,26 @@
 		<h2>| Top picks > </h2>
 		<p> TV shows and movies just for you </p>
 		<div class="slider2">
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg1.jpg">	
-			  	<p><img src="images/star.png">6.1</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg1.jpg">	
+			  	<p><img alt="star icon" src="images/star.png">6.1</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg2.jpg">	
-			  <p><img src="images/star.png">8.3</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg2.jpg">	
+			  <p><img alt="star icon" src="images/star.png">8.3</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg3.jpg">
-			  <p><img src="images/star.png">5.5</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg3.jpg">
+			  <p><img alt="star icon" src="images/star.png">5.5</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg4.jpg">
-			  <p><img src="images/star.png">6.3</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg4.jpg">
+			  <p><img alt="star icon" src="images/star.png">6.3</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg5.jpg">
-			  <p><img src="images/star.png">7.1</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg5.jpg">
+			  <p><img alt="star icon" src="images/star.png">7.1</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg6.jpg">
-			  <p><img src="images/star.png">6.3</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg6.jpg">
+			  <p><img alt="star icon" src="images/star.png">6.3</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg7.jpg">
-			  <p><img src="images/star.png">6.2</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg7.jpg">
+			  <p><img alt="star icon" src="images/star.png">6.2</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 		</div>
 	</section>
 
@@ -126,26 +131,26 @@
 		<h2>| From your Watchlist > </h2>
 		<p> Movies and TV shows that you have watchlisted </p>
 		<div class="slider2">
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg2.jpg">	
-			  	<p><img src="images/star.png">7.4</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg2.jpg">	
+			  	<p><img alt="star icon" src="images/star.png">7.4</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg1.jpg">	
-			  <p><img src="images/star.png">6.6</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg1.jpg">	
+			  <p><img alt="star icon" src="images/star.png">6.6</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg6.jpg">
-			  <p><img src="images/star.png">5.7</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg6.jpg">
+			  <p><img alt="star icon" src="images/star.png">5.7</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg4.jpg">
-			  <p><img src="images/star.png">8.1</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg4.jpg">
+			  <p><img alt="star icon" src="images/star.png">8.1</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg5.jpg">
-			  <p><img src="images/star.png">6.8</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg5.jpg">
+			  <p><img alt="star icon" src="images/star.png">6.8</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg3.jpg">
-			  <p><img src="images/star.png">5.9</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg3.jpg">
+			  <p><img alt="star icon" src="images/star.png">5.9</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg7.jpg">
-			  <p><img src="images/star.png">7.2</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg7.jpg">
+			  <p><img alt="star icon" src="images/star.png">7.2</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 		</div>
 	</section>
 
@@ -153,111 +158,111 @@
 		<h2>| Fan favorites > </h2>
 		<p> This week's top TV and movies </p>
 		<div class="slider2">
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg4.jpg">	
-			  	<p><img src="images/star.png">5.6</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg4.jpg">	
+			  	<p><img alt="star icon" src="images/star.png">5.6</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg7.jpg">	
-			  <p><img src="images/star.png">7.4</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg7.jpg">	
+			  <p><img alt="star icon" src="images/star.png">7.4</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg3.jpg">
-			  <p><img src="images/star.png">6.8</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="picmovie pictureture" src="images/toppicksimg3.jpg">
+			  <p><img alt="star icon" src="images/star.png">6.8</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg1.jpg">
-			  <p><img src="images/star.png">8.7</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg1.jpg">
+			  <p><img alt="star icon" src="images/star.png">8.7</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg5.jpg">
-			  <p><img src="images/star.png">6.3</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg5.jpg">
+			  <p><img alt="star icon" src="images/star.png">6.3</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg6.jpg">
-			  <p><img src="images/star.png">6.1</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg6.jpg">
+			  <p><img alt="star icon" src="images/star.png">6.1</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg2.jpg">
-			  <p><img src="images/star.png">5.9</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg2.jpg">
+			  <p><img alt="star icon" src="images/star.png">5.9</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 		</div>
 	</section>
-
+ 
 	<section> 
-		<h1 class="yellowtitle">| More to watch</h1>
+		<h2 class="yellowtitle">| More to watch</h2>
 		<p> IMDb helps you select the perfect next show or movie to watch. </p>
 		<button>Watch Guide</button> 
 		<button>Most Popular</button>
 	</section>
 
 	<section>
-		<h1 class="yellowtitle">Exclusive video's</h1>
+		<h2 class="yellowtitle">Exclusive video's</h2>
 	</section>
 
 		<section>
-		<h1 class="yellowtitle">IMDb originals</h1>
+		<h2 class="yellowtitle">IMDb originals</h2>
 		<p> Celebrity interviews, trending entertainment stories, and expert analysis </p>
 
 		<article class="slider">
-			  <article class="slide" id="slide-1"><img src="images/1erow4.png">	<p>What the Cast Learned From 'The Boys in the Band'</p>				</article>
-			  <article class="slide" id="slide-2"><img src="images/1erow3.png">	<p>The Space Race History of "The Right Stuff"</p></article>
-			  <article class="slide" id="slide-3"><img src="images/1erow2.png">	<p>Here's What to Watch in October</p></article>
-			  <article class="slide" id="slide-4"><img src="images/1erow.png">	<p>LGBTQ+ Power Couples of Hollywood</p></article>
+			  <article class="slide"><img alt="movie picture" src="images/1erow4.png">	<p>What the Cast Learned From 'The Boys in the Band'</p>				</article>
+			  <article class="slide"><img alt="movie picture" src="images/1erow3.png">	<p>The Space Race History of "The Right Stuff"</p></article>
+			  <article class="slide"><img alt="movie picture" src="images/1erow2.png">	<p>Here's What to Watch in October</p></article>
+			  <article class="slide"><img alt="movie picture" src="images/1erow.png">	<p>LGBTQ+ Power Couples of Hollywood</p></article>
 		</article>
 
 		</section>
 
 	<section>
-		<h1 class="yellowtitle">Explore what’s streaming</h1>
+		<h2 class="yellowtitle">Explore what’s streaming</h2>
 	</section>
 
 	<section> 
 		<p> Included with Prime </p>
 		<div class="slider2">
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg7.jpg">	
-			  	<p><img src="images/star.png">5.9</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg7.jpg">	
+			  	<p><img alt="star icon" src="images/star.png">5.9</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg2.jpg">	
-			  <p><img src="images/star.png">5.8</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg2.jpg">	
+			  <p><img alt="star icon" src="images/star.png">5.8</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg6.jpg">
-			  <p><img src="images/star.png">6.5</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg6.jpg">
+			  <p><img alt="star icon" src="images/star.png">6.5</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg4.jpg">
-			  <p><img src="images/star.png">7.8</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg4.jpg">
+			  <p><img alt="star icon" src="images/star.png">7.8</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg5.jpg">
-			  <p><img src="images/star.png">8.1</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg5.jpg">
+			  <p><img alt="star icon" src="images/star.png">8.1</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg3.jpg">
-			  <p><img src="images/star.png">7.9</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg3.jpg">
+			  <p><img alt="star icon" src="images/star.png">7.9</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg1.jpg">
-			  <p><img src="images/star.png">6.6</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg1.jpg">
+			  <p><img alt="star icon" src="images/star.png">6.6</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 		</div>
 	</section>
 
 	<section>
-		<h1 class="yellowtitle">Explore movies & TV shows</h1>
+		<h2 class="yellowtitle">Explore movies & TV shows</h2>
 	</section>
 
 			<section> 
 		<h2>| In theaters > </h2>
 		<p> Showtimes near you </p>
 		<div class="slider2">
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg1.jpg">	
-			  	<p><img src="images/star.png">8.4</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg1.jpg">	
+			  	<p><img alt="star icon" src="images/star.png">8.4</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg5.jpg">	
-			  <p><img src="images/star.png">7.7</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg5.jpg">	
+			  <p><img alt="star icon" src="images/star.png">7.7</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg3.jpg">
-			  <p><img src="images/star.png">7.6</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg3.jpg">
+			  <p><img alt="star icon" src="images/star.png">7.6</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg7.jpg">
-			  <p><img src="images/star.png">6.4</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg7.jpg">
+			  <p><img alt="star icon" src="images/star.png">6.4</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg2.jpg">
-			  <p><img src="images/star.png">9.1</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg2.jpg">
+			  <p><img alt="star icon" src="images/star.png">9.1</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg6.jpg">
-			  <p><img src="images/star.png">5.6</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg6.jpg">
+			  <p><img alt="star icon" src="images/star.png">5.6</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 
-			  <article class="slide2" id="slide-1"><img src="images/toppicksimg4.jpg">
-			  <p><img src="images/star.png">6.8</p> <p>Killer Inside</p> <button>+Watchlist</button> <p> > Trailer	</article>
+			  <article class="slide2"><img alt="movie picture" src="images/toppicksimg4.jpg">
+			  <p><img alt="star icon" src="images/star.png">6.8</p> <h3>Killer Inside</h3> <button>+Watchlist</button> <p> > Trailer	</article>
 		</div>
 	</section>
 
@@ -266,26 +271,26 @@
 	<p> Trailers for upcoming releases </p>
 
 	<article class="slider">
-		  <article class="slide" id="slide-1"><img src="images/1erow2.png">	<p>What the Cast Learned From 'The Boys in the Band'</p>				</article>
-		  <article class="slide" id="slide-2"><img src="images/1erow3.png">	<p>The Space Race History of "The Right Stuff"</p></article>
-		  <article class="slide" id="slide-3"><img src="images/1erow.png">	<p>Here's What to Watch in October</p></article>
-		  <article class="slide" id="slide-4"><img src="images/1erow4.png">	<p>LGBTQ+ Power Couples of Hollywood</p></article>
+		  <article class="slide"><img alt="movie picture" src="images/1erow2.png">	<p>What the Cast Learned From 'The Boys in the Band'</p>				</article>
+		  <article class="slide"><img alt="movie picture" src="images/1erow3.png">	<p>The Space Race History of "The Right Stuff"</p></article>
+		  <article class="slide"><img alt="movie picture" src="images/1erow.png">	<p>Here's What to Watch in October</p></article>
+		  <article class="slide"><img alt="movie picture" src="images/1erow4.png">	<p>LGBTQ+ Power Couples of Hollywood</p></article>
 	</article>
 
 	</section>
 
 		<section>
-		<h1 class="yellowtitle">More to explore</h1>
+		<h2 class="yellowtitle">More to explore</h2>
 	</section>
 
 	<section>
 		<h2>| Editors' picks </h2>
 
 		<article class="slider">
-			  <article class="slide" id="slide-1"><img src="images/1erow3.png">	<p>Not-So-Scary Movies for Scaredy Cats</p></article>
-			  <article class="slide" id="slide-2"><img src="images/1erow.png">	<p>October 2020 TV and Streaming Calendar</p></article>
-			  <article class="slide" id="slide-3"><img src="images/1erow4.png">	<p>Poll: Best Showtime Original Series</p></article>
-			  <article class="slide" id="slide-4"><img src="images/1erow3.png">	<p>LGBTQ+ Power Couples of Hollywood</p></article>
+			  <article class="slide"><img alt="movie picture" src="images/1erow3.png">	<p>Not-So-Scary Movies for Scaredy Cats</p></article>
+			  <article class="slide"><img alt="movie picture" src="images/1erow.png">	<p>October 2020 TV and Streaming Calendar</p></article>
+			  <article class="slide"><img alt="picmovie pictureture" src="images/1erow4.png">	<p>Poll: Best Showtime Original Series</p></article>
+			  <article class="slide"><img alt="movie picture" src="images/1erow3.png">	<p>LGBTQ+ Power Couples of Hollywood</p></article>
 		</article>
 	</section>
 
@@ -295,12 +300,12 @@
 	<p>People born on October 2</p>
 
 	<article class="slider17">
-		  <article ><img src="images/actors/1.png">	<p>Lorraine Bracco</p></article>
-		  <article ><img src="images/actors/2.png">	<p>Camilla Belle</p></article>
-		  <article ><img src="images/actors/3.png">	<p>Samantha Barks</p></article>
-		  <article ><img src="images/actors/1.png">	<p>Lorraine Bracco</p></article>
-		  <article ><img src="images/actors/2.png">	<p>Camilla Belle</p></article>
-		  <article ><img src="images/actors/3.png">	<p>Samantha Barks</p></article>
+		  <article ><img alt="picture" src="images/actors/1.png">	<p>Lorraine Bracco</p></article>
+		  <article ><img alt="picture" src="images/actors/2.png">	<p>Camilla Belle</p></article>
+		  <article ><img alt="picture" src="images/actors/3.png">	<p>Samantha Barks</p></article>
+		  <article ><img alt="picture" src="images/actors/1.png">	<p>Lorraine Bracco</p></article>
+		  <article ><img alt="picture" src="images/actors/2.png">	<p>Camilla Belle</p></article>
+		  <article ><img alt="picture" src="images/actors/3.png">	<p>Samantha Barks</p></article>
 	</article>
 	</section>
 
@@ -309,7 +314,7 @@
 	<h2>| Top news > </h2>
 
 		<article class="topnewsslider">
-			  <img src="images/actors/1.png">
+			  <img alt="picture" src="images/actors/1.png">
 			  <p> Stranger Things season 4 has officially resumed filming</p>
 
 		</article>
@@ -317,7 +322,7 @@
 		</section>
 
 	<section> 
-		<h1 class="yellowtitle">| Recently viewed</h1>
+		<h2 class="yellowtitle">| Recently viewed</h2>
 		<p> You have no recently viewed pages </p>
 	</section>
 
@@ -328,19 +333,19 @@
 <script src="scripts/script.js"></script>
 
 
-</body>
-
-
 <footer>
+
 	<div>
-	<a href="https://www.w3schools.com"><img src="images/socialmedia/facebook1.png" class="image1"></a>
-	<a href="https://www.w3schools.com"><img src="images/socialmedia/instagram1.png"></a>
-	<a href="https://www.w3schools.com"><img src="images/socialmedia/twitter1.png"></a>
-	<a href="https://www.w3schools.com"><img src="images/socialmedia/youtube1.png"></a>
+	<a href="https://facebook.com"><img alt="facebook" src="images/socialmedia/facebook1.png" class="image1"></a>
+	<a href="https://instagram.com"><img alt="instagram" src="images/socialmedia/instagram1.png"></a>
+	<a href="https://twitter.com"><img alt="twitter" src="images/socialmedia/twitter1.png"></a>
+	<a href="https://youtube.com"><img alt="youtube" src="images/socialmedia/youtube1.png"></a>
 	</div>
 
 	<p> © 1990-2020 by IMDb.com, Inc.</p>
 
 </footer>
+
+</body>
 	
 </html>

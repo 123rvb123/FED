@@ -1,7 +1,7 @@
 // JavaScript Document
 
-var hamburgerMenu = document.querySelector("nav div .hamburger");
-var sidebar = document.querySelector("article .sidebarmenu");
+var hamburgerMenu = document.querySelector(".hamburgerbutton");
+var sidebar = document.querySelector(".sidebarmenu");
 var hamburgerMenuSideBar = document.querySelector("nav .hamburgerinside");
 
 hamburgerMenu.addEventListener("click", toggleMenu);

@@ -5,14 +5,6 @@
   padding:0;
 }
 
-.wrapper {
-	position: relative;
-}
-
-header {
-
-}
-
 
 .headerimg {
 	width:100%;
@@ -20,16 +12,40 @@ header {
 
 }
 
+.fullscreenimagetekst {
+	color:white;
+	font-size:.6em;
+	padding:.5em;
+	opacity: .5;
+	position: relative;
+}
+
+.wheretowatch {
+	text-decoration: none;
+}
+
+.wheretowatch:link {
+	color:white;
+}
+
+.wheretowatch:visited {
+	color:yellow;
+}
+
+.wheretowatch:hover {
+	color:green;
+}
+
+
 /* ################## sidebar hamburgermenu ################## */ 
 
 .sidebarmenu {
 	color:white;
 	background-color:#0F0F0F;
 	position:absolute;
-	left:0px;
 	font-size:1.25rem;
-	padding:.4em;
-
+	padding:.10em;
+	z-index: 1;
 }
 
 
@@ -52,6 +68,23 @@ header {
 	padding-top: .6em;
 	cursor:pointer;
 }
+
+.sidebarmenu ul li button {
+
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	color:white;
+
+}
+
+.sidebarmenu ul li button img {
+	width:.6em;
+}
+
 
 /* ########################################################### */ 
 
@@ -76,38 +109,65 @@ nav div{
 	font-family:bold;
 	font-size:1em;
 	width:20em;
+	color:white;
+}
+
+.searchbutton {
+	max-width:1.2em
 }
 
 nav div img {
 	align-self:center;
 }
 
-nav div img:first-of-type  { 		/* hamburger menu */
-	width:6%;
-	height:auto;
+.hamburger {
+		height:auto;
 	cursor:pointer;
-	max-width:1.2em;
+	max-width:1.2em
+}
+
+.hamburger:hover {
+	background-color:#2d2d2d;
+	transition:.1s;
+	max-width:1.25em
+}
+
+.logo {
+	max-width:2em;
+	background: red;
+ 	transition:.5s;
+}
+
+.logo:hover {
+	max-width:2.9em;
+	transform:rotate(360deg);
+}
+
+ nav div button img:nth-of-type(3)  { 		/* search icon menu */
+
  }
 
- nav div img:nth-of-type(2)  { 		/* imdb menu */
-	width:13%;
-	height:auto;
-	max-width:3em;
+ nav div button{						/* sign in menu */
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	color:white;
  }
 
- nav div img:nth-of-type(3)  { 		/* search icon menu */
-	width:7%;
-	height:auto;
-	text-align:right;
-	max-width:1.2em;
- }
-
- nav div p {						/* sign in menu */
+  nav div button p{						/* sign in menu */
  	color:white;
  }
 
+
 .menu {
 		padding:1em;
+}
+
+button {
+	cursor: pointer;
 }
 
 
@@ -132,6 +192,23 @@ section {
 	padding:.6em;
 	padding-left:1em;
 }
+
+/* 1E ARTICLE */
+
+body section:first-of-type button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+}
+
+body section:first-of-type p {
+	color:white;
+}
+
+/* ########### */
 
 /* 2E ARTICLE */
 
@@ -161,6 +238,10 @@ body section:nth-of-type(2) p {
 		overflow-x: auto; 
 	}
 
+	.slider2 h3 {
+		padding-bottom:1em;
+	}
+
 	.slider2 button {			/* watchlist button */
 		border-radius:.3em;
 		color:#639FED;
@@ -181,17 +262,12 @@ body section:nth-of-type(2) p {
 		color:white;
 	}
 
-	.slider #slide-1, #slide-2, #slide-3, #slide-4, #slide-5, #slide-6, #slide-7, #slide-8 {
-		max-width:17.2em;
-		min-width:17.2em;
-	}
-
-	.slide2 #slide-1 {
-		background-color:#242227;
-	}
-
 	.slide2 {
 		padding:.3em;
+	}
+
+	.slide {
+				min-width:17.2em;
 	}
 
 /* ########### */
@@ -205,6 +281,8 @@ body section:nth-of-type(3) button {
 	background-color: #b29922;
 	border-radius:.3em;
 	color:white;
+	font-size:.6em;
+	font-family:bold;
 }
 
 body section:nth-of-type(3) {
@@ -310,12 +388,31 @@ body section:nth-of-type(9) img {
 }
 /* ######################################### */ 
 
+/* 13E ARTICLE */	
+body section:nth-of-type(13) h2::first-letter {  /* GEEL STREEPJE BIJ TITEL */
+	color:#b29922;
+}
+/* ######################################### */ 
+
+
 /* 14E ARTICLE */				/*************** COMING SOON TO THEATERS ***************/
 
 body section:nth-of-type(14) img {	
 	padding-top:1em;
 	height:auto;
 	width:95%;
+}
+
+body section:nth-of-type(14) h2::first-letter {  /* GEEL STREEPJE BIJ TITEL */
+	color:#b29922;
+}
+
+
+/* ######################################### */ 
+
+/* 15E ARTICLE */
+body section:nth-of-type(15) h2::first-letter {  /* GEEL STREEPJE BIJ TITEL */
+	color:#b29922;
 }
 
 /* ######################################### */ 
@@ -326,6 +423,10 @@ body section:nth-of-type(16) img {
 	padding-top:1em;
 	height:auto;
 	width:95%;
+}
+
+body section:nth-of-type(16) h2::first-letter {  /* GEEL STREEPJE BIJ TITEL */
+	color:#b29922;
 }
 
 /* ######################################### */ 
@@ -370,7 +471,6 @@ body section:nth-of-type(18) p {
 }
 
 /* ######################################### */ 
-
 
 .topnewsslider {
 	display:flex;
@@ -457,7 +557,7 @@ footer img {
  	}
 
  	.menu img:first-of-type {			/* hamburger menu */
- 		max-width:1.2em;
+
  	}
 
  	.menu img:nth-of-type(2)  { 		/* imdb menu */
@@ -481,9 +581,10 @@ footer img {
 
  	body section:nth-of-type(3) button {
   	max-width:25em;
+  	width:30em;
  	}
 
- 	body {
+ 	body{
  		width:80%;
  		margin:0px auto;
  	}

@@ -1,0 +1,106 @@
+*, *::after, *::before {
+  box-sizing:border-box;  
+  margin:0;
+  padding:0;
+}
+
+nav ul {
+	padding:1.5em;
+	display:flex;
+	justify-content: space-between;
+}
+
+nav li {
+	display:flex;
+}
+
+
+body {
+	background-color:#0D0D0D;
+	color:white;
+}
+
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	color:white;
+}
+
+li:nth-of-type(2) {
+	color:yellow;
+}
+
+.icon {
+	width:70%;
+}
+
+.hoofdimage {
+	width:100%;
+	height:auto;
+	position: absolute;
+
+}
+
+.closebutton {
+	text-decoration: none;
+	color:white;
+}
+
+.closebutton:hover {
+	text-decoration:underline;
+}
+
+section {
+	position: relative;
+}
+
+.text {
+	position: absolute;
+	background:rgb(0, 0, 0, .6);
+	margin-top:6em;
+	padding:1em;
+}
+
+p {
+	padding-bottom:1em;
+}
+
+h1, h2 {
+	color:#e7af1f;
+}
+
+h2 {
+	padding-bottom:.6em;
+}
+
+h4 {
+	color:#3E83B6;
+	text-align:right;
+}
+
+ @media only screen and (min-width: 1100px) { 			/******************* REPONSIVE GEDEELTE CSS *******************/
+
+ 	body{
+ 		width:80%;
+ 		margin:0px auto;
+ 	}
+
+ 	}
+
+ 	 @media only screen and (min-width: 500px) { 			/******************* REPONSIVE GEDEELTE CSS *******************/
+
+ 	.text {
+		margin-top:12em;
+	}
+ 	}
+
+ 	 	 @media only screen and (min-width: 800px) { 			/******************* REPONSIVE GEDEELTE CSS *******************/
+
+ 	.text {
+		margin-top:12.5em;
+	}
+ 	}
