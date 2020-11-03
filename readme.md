@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** -Remco van Bruggen-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website kostte veel tijd, maar naar trial en error ben ik toch tevreden over het resultaat.
 
@@ -9,6 +9,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. IMDb.com voor alle informatie, films, icons etc. <br>
 2. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp voor hulp met de javascript<br>
 3. https://pngtree.com/so/search icons<br>
+
+##  Herkansing
+Voor de herkansing moest ik erg veel code veranderen nadat erg veel niet semantisch stond. <br>
+Ik heb na de feedback 300 errors... verholpen en het volgende verbeterd. <br><br>
+• In de header staat nu een h1 met directe links naar Netflix en Prime Video om de film te bekijken <br>
+• Browse trailers is nu een button <br>
+• De kopjes hebben nu een h2 aangezien het niet het belangrijkst is <br>
+• Maak nu geen gebruik meer van meerdere h1's <br>
+• Er zit twee micro interacties in, bij het hamburger menu en het IMDb logo. <br>
+• Er is nu de mogelijkheid om te tabben door de site heen. <br>
+• Hamburger menu is nu ook een button <br>
+• Header zit nu in de body, alles staat semantisch. <br>
 
 
 
